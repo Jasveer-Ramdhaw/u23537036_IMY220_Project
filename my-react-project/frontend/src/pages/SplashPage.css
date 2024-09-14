@@ -1,0 +1,43 @@
+.splash-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1db954, #1ed760);
+    color: white;
+    font-family: 'Arial', sans-serif;
+}
+
+.splash-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.tagline {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.splash-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.splash-image {
+    width: 50%;
+    margin-bottom: 20px;
+}
+
+.auth-forms {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    width: 100%;
+}
